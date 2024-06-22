@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTTP Observatory Scanner</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    h1 {
+      color: #0056b3;
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 1.2em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>HTTP Observatory Scanner</h1>
+  <button id="scanButton">Scan Current Website</button>
+  <div id="result"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
